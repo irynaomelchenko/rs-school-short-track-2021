@@ -11,9 +11,9 @@
  */
 function deleteDigit(n) {
   const str = `${n}`;
-  const arr = str.split('');
   const newArr = [];
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < str.length; i++) {
+    const arr = str.split('');
     arr.splice(i, 1);
     newArr.push(+arr.join(''));
   }
