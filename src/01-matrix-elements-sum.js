@@ -23,8 +23,7 @@ function getMatrixElementsSum(matrix) {
         sum += matrix[i][j];
       }
     }
-  }
-  return sum;
+  }return sum;
 }
 
 module.exports = getMatrixElementsSum;

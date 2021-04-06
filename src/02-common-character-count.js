@@ -30,7 +30,6 @@ function getCommonCharacterCount(s1, s2) {
       }
     }
   }
-
   return (resArr.length);
 }
 
